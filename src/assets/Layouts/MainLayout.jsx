@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className='w-4/5 mx-auto'>
             <Heading></Heading>
             <Search></Search>
             <Outlet></Outlet>
